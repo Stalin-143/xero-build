@@ -1,4 +1,4 @@
-# XeroLinux KDE Flagship ISO Repo
+# XeroLinux (Phase 2) ISO Repo
 
 <p align="center">
     <img width="300" src="https://i.imgur.com/QWqMIsr.png" alt="logo">
