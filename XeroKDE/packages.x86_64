@@ -34,7 +34,6 @@ ethtool
 exfatprogs
 f2fs-tools
 fatresize
-firebuild
 foot-terminfo
 fd
 fsarchiver
@@ -47,6 +46,7 @@ hyperv
 irssi
 jfsutils
 kitty-terminfo
+ldns
 less
 lftp
 libfido2
@@ -133,7 +133,6 @@ ntp
 most
 wget
 dialog
-repoctl
 dnsutils
 logrotate
 
@@ -143,12 +142,12 @@ logrotate
 
 ### XeroLinux Build
 
-xerowelcome
-calamares-app
+xlapit-cli
+xero-hooks
+xero-calamares
 calamares-cfg
-xero-kde-config
+desktop-config
 xero-fix-scripts
-xerolinux-mirrorlist
 
 ### Build Stuff
 
@@ -163,9 +162,7 @@ gtk-update-icon-cache
 ### mkinitcpio stuff
 
 mkinitcpio
-xero-hooks
 mkinitcpio-archiso
-mkinitcpio-firmware
 mkinitcpio-openswap
 mkinitcpio-nfs-utils
 
@@ -210,44 +207,30 @@ xf86-video-vesa
 xf86-video-fbdev
 xf86-video-vmware
 qemu-hw-display-qxl
-xf86-video-openchrome
 
 ### Input
 
 piper
-ds4drv
-imwheel
 fprintd
 libinput
-gestures
-xpadneo-dkms
-dualsensectl
-fingerprint-gui
 xf86-input-void
 xf86-input-evdev
 iio-sensor-proxy
-libinput-gestures
-game-devices-udev
 xf86-input-vmmouse
 xf86-input-libinput
 xf86-input-synaptics
-libinput-gestures-qt
 xf86-input-elographics
 
 ### Network Adapters
 
-broadcom-wl
-rtw89-dkms-git
-rtl8821ce-dkms-git
+broadcom-wl-dkms
 
 ### Printers & Scanner support
 
 hplip
-hplip-plugin
 print-manager
 printer-support
 scanner-support
-brother-dcp-t710w-lpr-bin
 
 ### G-Streamer
 
@@ -279,7 +262,6 @@ bluez-libs
 bluez-utils
 bluez-plugins
 bluez-hid2hci
-bluez-utils-compat
 
 ### Networking tools
 
@@ -300,7 +282,6 @@ nm-cloud-setup
 wireless-regdb
 wireless_tools
 wpa_supplicant
-linux-wifi-hotspot
 systemd-resolvconf
 networkmanager-vpnc
 networkmanager-pptp
@@ -308,7 +289,6 @@ networkmanager-l2tp
 network-manager-sstp
 network-manager-applet
 networkmanager-openvpn
-systemd-boot-pacman-hook
 networkmanager-strongswan
 networkmanager-openconnect
 mobile-broadband-provider-info
@@ -334,7 +314,7 @@ numlockx
 lm_sensors
 samba-support
 appstream-glib
-xremap-kde-bin
+lib32-lm_sensors
 
 ### Bat to replace cat
 
@@ -343,7 +323,6 @@ bat-extras
 
 ### Fonts
 
-asian-fonts
 ttf-fira-code
 otf-libertinus
 tex-gyre-fonts
@@ -365,18 +344,13 @@ vscode-json-languageserver
 kvantum
 neofetch
 gtk-engines
-kwin-bismuth
 gtk-engine-murrine
-lightlyshaders-git
 gnome-themes-extra
-kwin-scripts-forceblur
-libadwaita-without-adwaita-git
-kwin-effects-sliding-notifications
 
 ### Rice/Config Related
 
 kde-wallpapers
-tela-circle-icon-theme-purple-git
+tela-circle-icon-theme-purple
 
 ### Browser
 
@@ -391,34 +365,11 @@ ffnvcodec-headers
 
 ### PKG Management
 
-yay-bin
+paru-bin
 flatpak
-topgrade
-arch-update
-pacseek-bin
-warehouse-git
-appstream-qt5
+appstream-qt
 pacman-contrib
-pacman-mirrorup
 pacman-bintrans
-rate-mirrors-bin
-pacman-mirrorlist
-
-### Vim For the Fans
-
-vim
-vim-align
-vim-csound
-vim-pastie
-vim-runtime
-vim-nerdtree
-vim-supertab
-vim-syntastic
-vim-gitgutter
-vim-bufexplorer
-vim-editorconfig
-vim-nerdcommenter
-vim-coverage-highlight
 
 #######################################################
 ###                  Libraries                      ###
@@ -466,17 +417,16 @@ python-websockets
 
 sddm
 xdg-user-dirs
-packagekit-qt5
+packagekit-qt6
 
 ### Others
 
 ocs-url
-systemd-kcm
+xmlstarlet
 
 ## Utilities
 
 yt-dlp
-yt-dlg
 wavpack
 unarchiver
 gnustep-base
@@ -486,8 +436,7 @@ hardinfo-gtk3
 
 parallel
 xsettingsd
-polkit-qt5
-#polkit-qt6
+polkit-qt6
 systemdgenie
 gnome-keyring
 
@@ -502,45 +451,16 @@ gnome-keyring
 #######################################################
 
 ### https://archlinux.org/groups/x86_64/kf5/
+### https://archlinux.org/groups/x86_64/qt6/
 ### https://archlinux.org/groups/x86_64/kde-system/
 
-kf5
+kf6
+qt6
 kde-system
 
 #######################################################
 ###                 The Selections                  ###
 #######################################################
-
-### QT5/6 Selection
-### https://archlinux.org/groups/x86_64/qt5/
-
-qt5-3d
-qt5-base
-qt5-tools
-qt5-script
-qt5-gamepad
-qt5-wayland
-qt5-webview
-qt6-5compat
-qt5-location
-qt5-webengine
-qt5-x11extras
-qt5-webchannel
-qt5-websockets
-qt5-multimedia
-qt5-purchasing
-qt5-webglplugin
-qt5-networkauth
-qt5-declarative
-qt5-xmlpatterns
-qt5-connectivity
-qt5-imageformats
-qt5-translations
-qt5-remoteobjects
-qt5-quicktimeline
-qt5-quickcontrols
-qt5-quickcontrols2
-qt5-graphicaleffects
 
 ### Plasma Selection
 ### https://archlinux.org/groups/x86_64/plasma/
@@ -553,7 +473,6 @@ drkonqi
 kwrited
 kgamma
 kscreen
-khotkeys
 sddm-kcm
 kmenuedit
 bluedevil
@@ -581,9 +500,12 @@ plasma-desktop
 polkit-kde-agent
 plasma-workspace
 kdeplasma-addons
+ocean-sound-theme
+qqc2-breeze-style
 kactivitymanagerd
 plasma-integration
 plasma-thunderbolt
+plasma5-integration
 plasma-systemmonitor
 xdg-desktop-portal-kde
 plasma-browser-integration
@@ -595,6 +517,7 @@ krdc
 krfb
 alligator
 kdeconnect
+kio-admin
 kio-extras
 kio-gdrive
 konversation
@@ -637,8 +560,6 @@ markdownpart
 keditbookmarks
 kdebugsettings
 kwalletmanager
-fancontrol-gui
-fancontrol-kcm
 dolphin-plugins
 
 ### KDE Multimedia Selection
@@ -660,13 +581,12 @@ akregator
 
 dwayland
 egl-wayland
-qt5-wayland
+qt6-wayland
 glfw-wayland
 lib32-wayland
 wayland-protocols
+xwaylandvideobridge
 kwayland-integration
-plasma-wayland-session
-xwaylandvideobridge-bin
 plasma-wayland-protocols
 
 #######################################################
@@ -681,7 +601,6 @@ npm
 yad
 zip
 xdo
-alsi
 inxi
 meld
 lzop
@@ -724,7 +643,6 @@ fuseiso
 gettext
 node-gyp
 intltool
-hw-probe
 graphviz
 pkgstats
 inetutils
@@ -741,6 +659,5 @@ dbus-python
 dconf-editor
 laptop-detect
 perl-xml-parser
-edid-decode-git
 gnome-disk-utility
 appmenu-gtk-module

@@ -1,12 +1,12 @@
 [SddmGreeterTheme]
 Name=XeroDark
-Description=XeroDark sddm theme
-Author=DarkXero
-Copyright=(c) 2021, DarkXero
-License=GPL 3+
+Description=XeroDark
+Author=XeroLinux Design Group
+Copyright=(c) 2024, DarkXero
+License=CC-BY-SA
 Type=sddm-theme
 Version=0.1
-Website=https://xerolinux.online
+Website=https://github.com/sddm/sddm
 Screenshot=preview.png
 MainScript=Main.qml
 ConfigFile=theme.conf
@@ -14,3 +14,4 @@ TranslationsDirectory=translations
 Email=info@techxero.com
 Theme-Id=XeroDark
 Theme-API=2.0
+QtVersion=6
