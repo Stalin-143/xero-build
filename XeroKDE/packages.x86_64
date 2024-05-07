@@ -144,7 +144,7 @@ logrotate
 
 xlapit-cli
 xero-hooks
-xero-calamares
+calamares-app
 calamares-cfg
 desktop-config
 xero-fix-scripts
@@ -342,7 +342,7 @@ vscode-json-languageserver
 ### Theme Tools
 
 kvantum
-neofetch
+fastfetch
 gtk-engines
 gtk-engine-murrine
 gnome-themes-extra
