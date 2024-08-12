@@ -1,7 +1,7 @@
 #
 # ~/.bashrc
 #
-
+clear && fastfetch
 #Ibus settings if you need them
 #type ibus-setup in terminal to change settings and start the daemon
 #delete the hashtags of the next lines and restart
@@ -27,12 +27,15 @@ fi
 # Path to bat config
 export BAT_CONFIG_PATH="~/.config/bat/config.conf"
 
+# Oh-My-Posh Config
+eval "$(oh-my-posh init bash --config $HOME/.config/ohmyposh/xero.omp.json)"
+
 # Replace stuff with bat
 alias cat='bat '
 alias rg='batgrep '
 alias man='tldr '
 
-#iso and version used to install XeroLinux
+#iso and version used to install ArcoLinux
 alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
 
 #ignore upper and lowercase when TAB completion
@@ -41,21 +44,18 @@ bind 'set completion-ignore-case on'
 #systeminfo
 alias probe='sudo -E hw-probe -all -upload'
 
-# Replace ls with eza
+# Replace ls with exa
 alias ls='eza -al --color=always --group-directories-first --icons' # preferred listing
 alias la='eza -a --color=always --group-directories-first --icons'  # all files and dirs
 alias ll='eza -l --color=always --group-directories-first --icons'  # long format
 alias lt='eza -aT --color=always --group-directories-first --icons' # tree listing
 alias l='eza -lah --color=always --group-directories-first --icons' # tree listing
 
-#pacman unlock
-alias unlock='sudo rm /var/lib/pacman/db.lck'
-
 #available free memory
 alias free='free -mt'
 
 #continue download
-alias wget='wget -c '
+alias wget='wget -c'
 
 #readable output
 alias df='df -h'
@@ -64,12 +64,11 @@ alias df='df -h'
 alias userlist='cut -d: -f1 /etc/passwd'
 
 #Pacman for software managment
-alias upall='topgrade'
-alias search='pamac search '
-alias remove='sudo pacman -R '
-alias install='sudo pacman -S '
+alias search='pacman -F '
+alias remove='sudo pacman -Rs '
+alias install='sudo pacman -S'
 alias linstall='sudo pacman -U *.pkg.tar.zst'
-alias update='sudo pacman -Syyu && flatpak update'
+alias update='pamac update && flatpak update'
 alias clrcache='sudo pacman -Scc'
 alias orphans='sudo pacman -Rns $(pacman -Qtdq)'
 
@@ -78,11 +77,9 @@ alias pget='paru -S '
 alias yget='yay -S '
 alias yrem='yay -R '
 alias prem='paru -R '
-alias yup='yay -Syyu'
-alias pup='paru -Syyu'
 
 #Bash aliases
-alias mkfile='touch '
+alias mkfile='touch'
 alias jctl='journalctl -p 3 -xb'
 alias breload='cd ~ && source ~/.bashrc'
 alias zreload='cd ~ && source ~/.zshrc'
@@ -92,6 +89,9 @@ alias traceme='traceroute github.com'
 
 #hardware info --short
 alias hw='hwinfo --short'
+
+## HBlock
+alias ublock='sudo hblock'
 
 #youtube-dl
 alias yta-best="yt-dlp --extract-audio --audio-format best "
@@ -110,8 +110,9 @@ alias scpd='sudo cp -R'
 
 #nano
 alias nz='$EDITOR ~/.zshrc'
-alias nbashrc='nano ~/.bashrc'
-alias nzshrc='nano ~/.zshrc'
+alias cls='clear && fastfetch'
+alias nbashrc='sudo nano ~/.bashrc'
+alias nzshrc='sudo nano ~/.zshrc'
 alias nsddm='sudo nano /etc/sddm.conf'
 alias pconf='sudo nano /etc/pacman.conf'
 alias mkpkg='sudo nano /etc/makepkg.conf'
@@ -153,12 +154,8 @@ alias rkeys='sudo pacman-key --refresh-keys'
 
 ### HBLOCK Stuff
 
-alias hblock="sudo hblock"
+alias block="sudo hblock"
 alias unhblock="hblock -S none -D none"
-
-### Building & Installing
-
-alias mkinstall='makepkg -rsi --noconfirm'
 
 #shutdown or reboot
 alias sr='sudo reboot'
@@ -190,5 +187,3 @@ ex ()
     echo ''$1' is not a valid file'
   fi
 }
-
-fastfetch

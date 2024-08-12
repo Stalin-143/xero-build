@@ -1,0 +1,8 @@
+.DS_Store
+Thumbs.db
+db.json
+build.sh
+*.log
+node_modules/
+.deploy*/
+_multiconfig.yml

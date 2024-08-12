@@ -19,12 +19,12 @@ echo
 	desktop="plasma"
 	dmDesktop="plasma"
 
-	xerolinuxVersion='2024.05'
+	xerolinuxVersion='2024.08'
 
 	isoLabel='xerolinux-'$xerolinuxVersion'-x86_64.iso'
 
 	# setting of the general parameters
-	archisoRequiredVersion="archiso 77-1"
+	archisoRequiredVersion="archiso 79-1"
 	buildFolder=$HOME"/xero-build"
 	outFolder=$HOME"/Xero-Out"
 	archisoVersion=$(sudo pacman -Q archiso)

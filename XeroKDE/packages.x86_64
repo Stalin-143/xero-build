@@ -140,6 +140,10 @@ logrotate
 ###                  Required                       ###
 #######################################################
 
+### Chaotic-AUR
+chaotic-keyring
+chaotic-mirrorlist
+
 ### XeroLinux Build
 
 xlapit-cli
@@ -163,6 +167,7 @@ gtk-update-icon-cache
 
 mkinitcpio
 mkinitcpio-archiso
+mkinitcpio-firmware
 mkinitcpio-openswap
 mkinitcpio-nfs-utils
 
@@ -344,6 +349,7 @@ vscode-json-languageserver
 kvantum
 fastfetch
 gtk-engines
+oh-my-posh-bin
 gtk-engine-murrine
 gnome-themes-extra
 
@@ -430,7 +436,6 @@ yt-dlp
 wavpack
 unarchiver
 gnustep-base
-hardinfo-gtk3
 
 ## Complements
 
