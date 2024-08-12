@@ -68,7 +68,7 @@ alias search='pacman -F '
 alias remove='sudo pacman -Rs '
 alias install='sudo pacman -S'
 alias linstall='sudo pacman -U *.pkg.tar.zst'
-alias update='pacman -Syyu && flatpak update'
+alias update='sudo pacman -Syyu && flatpak update'
 alias clrcache='sudo pacman -Scc'
 alias orphans='sudo pacman -Rns $(pacman -Qtdq)'
 
