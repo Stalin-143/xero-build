@@ -1,7 +1,7 @@
 .DS_Store
 Thumbs.db
 db.json
-build.sh
+*.sh
 *.log
 node_modules/
 .deploy*/
