@@ -4,7 +4,7 @@ I have been following up on all issues reported on Discord. If you notice any, p
 
 <h3 align="center">September 2024</h3>
 
-This month's version includes a few major changes and minor fixes. See list below.
+This month's version includes a few major changes and minor fixes. See list below. ISO will boot using **SystemD-Boot** for Live Environment, however it will still be using **Grub** on the installed system.
 
 #### Major Fixes
 
