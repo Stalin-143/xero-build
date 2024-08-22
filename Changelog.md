@@ -19,5 +19,3 @@ This month's version includes a few major changes and minor fixes. See list belo
 - KDE Plasma updated to 6.14.
 - Updated Calamares to latest.
 - Minor Wayland fixes included.
-
-Please make sure to use **Ventoy** to boot ISO as mentioned on main post.
