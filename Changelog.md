@@ -4,7 +4,7 @@ I have been following up on all issues reported on Discord. If you notice any, p
 
 <h3 align="center">September 2024</h3>
 
-This month's version includes a few major changes and minor fixes.  Below are the changes.
+This month's version includes a few major changes and minor fixes. See list below.
 
 #### Major Fixes
 
@@ -15,7 +15,7 @@ This month's version includes a few major changes and minor fixes.  Below are th
 #### Minor tweaks
 
 - Updated XeroLinux Toolkit.
-- Latest 6.10.6 Kernel used.
+- Kernel updated to v6.10.6.
 - KDE Plasma updated to 6.14.
 - Updated Calamares to latest.
 - Minor Wayland fixes included.
