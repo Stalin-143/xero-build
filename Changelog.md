@@ -44,20 +44,16 @@ Some features available via the toolkit were already applied on the ISO, since i
 ✅ Fastfetch/OhMyPosh<br>
 ✅ XeroLinux Layan Rice
 
-### Issues + Fixes
+### Issues + Fixes ⚠️
 
-- ⚠️ **Theming Issue** ⚠️
+- **Theming Issue**
 
 There might be a small issue with **GTK4/LibAdwaita** app theming, I couldn't find a workaround. In case you use those, you will have to Launch the toolkit from the dock, head on over to **4. Customization** select option `u` to apply the fix & update both GTK as well as KDE themes to latest versions from source.
 
-![Fix](https://i.imgur.com/cBVO4ki.png)
-
 The included fix only works for the default 🎨**Layan Theme**🎨, if you use another, well, you will have to ask its dev for patch, not all themes work for **GTK4/LibAdwaita** apps since Devs are mostly anti-theming.
 
-- ⚠️ **Tailscale Issue** ⚠️
+- **Tailscale Issue**
 
 If you use [**Tailscale**](https://tailscale.com), you will need to install it via the toolkit as well. Issue is that since this is a custom distro, official installer will not be able to recognize it unless devs add it.
-
-![TSFix](https://i.imgur.com/ZFbFfsL.png)
 
 While I have requested this, in the meantime, you will need to launch toolkit, choose option **2. System Drivers** then >> **5. Tailscale w/XeroLinux fix** (name might change) as seen in the image above and install it from there. That's it, **Tailscale** will successfully install. Just make sure you reboot the system once it's done for the service to run.
