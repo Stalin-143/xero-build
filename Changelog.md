@@ -34,17 +34,23 @@ As you can see, after thinking long and hard, I have decided to revive the Distr
 
 Some features available via the toolkit were already applied on the ISO, since it was initially created for Vanilla Arch. Find the list of what has already been applied below :
 
-✅ PipeWire/Bluetooth<br>
-✅ Flatpak + Overrides<br>
-✅ Multithread Compiling<br>
-✅ Chaotic-AUR Enabled<br>
-✅ Printer Driver/Tools<br>
-✅ Samba Tools and configs<br>
-✅ Scanner Driver/Tools<br>
-✅ Fastfetch/OhMyPosh<br>
-✅ XeroLinux Layan Rice
+<div align="center">
+
+| XeroLinux                | Included Features       |
+| ----------------------   | ----------------------  |
+| ✅ PipeWire/Bluetooth    | ✅ Flatpak + Overrides  |
+| ✅ Multithread Compiling | ✅ Chaotic-AUR Enabled  |
+| ✅ Printer Driver        | ✅ Scanner Drivers      |
+| ✅ Samba Tools           | ✅ XeroLinux Layan Rice |
+| ✅ Fastfetch             | ✅ Oh-My-Posh           |
+
+</div>
 
 ### Issues + Fixes ⚠️
+
+- **EFI Only**
+
+This initial release currently only boots on **EFI** machines, **Legacy Boot** is currently broken. Make sure you use it on a modern *EFI* system.
 
 - **Theming Issue**
 
