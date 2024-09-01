@@ -20,7 +20,7 @@ This month's version includes a few major changes and minor fixes. See list belo
 - Bios/MBR Boot has been fixed.
 - Fixed some services not starting.
 - Tailscale can be installed via toolkit.
-- Intel/AMD Hybrids Support Added (Experimental).
+- Removed Hybrid GPU Support from toolkit.
 
 #### Minor tweaks
 
