@@ -16,7 +16,7 @@ In case you use **GTK4/LibAdwaita** apps, you will have to Launch the toolkit fr
 
 - **Swap + Hibernate**
 
-This option is getting a complete revamp. Due to that, it's been disabled. Will be reactivated once work is done on the next ISO. Until then you can still select **Swap File** in case you need it. THanks for your understanding.
+I am currently reworking this option. Due to that, it's been disabled. Will be reactivated once work is done on the next ISO. Until then you can still select **Swap File** in case you need it. Thanks for your understanding.
 
 <h3 align="center">September 2024</h3>
 
