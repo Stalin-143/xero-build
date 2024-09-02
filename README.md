@@ -8,15 +8,31 @@
     <img src="https://i.imgur.com/ejZ1ZQv.png" alt="logo">
 </p>
 
-<h2 align="center">!!! The Changelog !!!!</h2>
+<h2 align="center">🚀 Release notes 🚀</h2>
 
-- **GTK Theming**
+### GTK Theming
 
 In case you use **GTK4/LibAdwaita** apps, you will have to Launch the toolkit from the dock, head on over to **4. Customization** select option `u` to apply the fix & update both GTK as well as KDE themes to latest versions from source. Only works for the default 🎨**Layan Theme**🎨.
 
-- **Swap + Hibernate**
+### Swap + Hibernate
 
 I am currently reworking this option. Due to that, it's been disabled. Will be reactivated once work is done on the next ISO. Until then you can still select **Swap File** in case you need it. Thanks for your understanding.
+
+### Included Features
+
+Some features available via the toolkit were already applied on the ISO, since it was initially created for Vanilla Arch. Find the list of what has already been applied below :
+
+<div align="center">
+
+| XeroLinux                | Included Features       |
+| ----------------------   | ----------------------  |
+| ✅ PipeWire/Bluetooth    | ✅ Flatpak + Overrides  |
+| ✅ Multithread Compiling | ✅ Chaotic-AUR Enabled  |
+| ✅ Printer Driver        | ✅ Scanner Drivers      |
+| ✅ Samba Tools           | ✅ XeroLinux Layan Rice |
+| ✅ Fastfetch             | ✅ Oh-My-Posh           |
+
+</div>
 
 <h3 align="center">September 2024</h3>
 
@@ -41,20 +57,6 @@ This month's version includes a few major changes and minor fixes. See list belo
 
 <h3 align="center">August 2024 (Initial Release)</h3>
 
-#### Included Features
-
-This initial release currently only boots on **EFI** machines, **Legacy Boot** is currently broken. Make sure you use it on a modern *EFI* system. Also some features available via the toolkit were already applied on the ISO, since it was initially created for Vanilla Arch. Find the list of what has already been applied below :
-
-<div align="center">
-
-| XeroLinux                | Included Features       |
-| ----------------------   | ----------------------  |
-| ✅ PipeWire/Bluetooth    | ✅ Flatpak + Overrides  |
-| ✅ Multithread Compiling | ✅ Chaotic-AUR Enabled  |
-| ✅ Printer Driver        | ✅ Scanner Drivers      |
-| ✅ Samba Tools           | ✅ XeroLinux Layan Rice |
-| ✅ Fastfetch             | ✅ Oh-My-Posh           |
-
-</div>
+This initial release currently only boots on **EFI** machines, **Legacy Boot** is currently broken. Make sure you use it on a modern *EFI* system.
 
 
