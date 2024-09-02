@@ -40,10 +40,10 @@ This month's version includes a few major changes and minor fixes. See list belo
 - Bios/MBR Boot has been fixed.
 - Fixed some services not starting.
 - Tailscale can be installed via toolkit.
+- Disabled Swap+/-Hibernate In Calamares.✴️
 - Removed Hybrid GPU Support from toolkit.
-- Disabled Swap+/-Hibernate In Calamares.(❌)
 
-(❌) **Swap + Hibernate**
+✴️ **Swap + Hibernate**
 
 I am currently reworking this option. Due to that, it's been disabled. Will be reactivated once work is done on the next ISO. Until then you can still select Swap File in case you need it. Only use it if you are low on RAM (8GB or lower) otherwise would be a waste of space. Thanks for your understanding.
 
