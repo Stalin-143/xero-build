@@ -40,7 +40,6 @@ This month's version includes a few major changes and minor fixes. See list belo
 - ISO uses SystemD-Boot now.
 - Bios/MBR Boot has been fixed.
 - Updated Dolphin Context Menus.
-- Fixed some services not starting.
 - Tailscale can be installed via toolkit.
 - Disabled Swap+/-Hibernate In Calamares.✴️
 - Removed Hybrid GPU Support from toolkit.
