@@ -32,12 +32,14 @@ Some features available via the toolkit were already applied on the ISO, since i
 
 <h3 align="center">September 2024</h3>
 
-This month's version includes a few major changes and minor fixes. See list below. ISO will boot using **SystemD-Boot** for Live Environment, however it will still be using **Grub** on the installed system. Please use **Ventoy** for a better experience...
+This month's version includes a few major changes and minor fixes. See list below. ISO will boot using **SystemD-Boot** for Live Environment, however it will still be using **Grub** on the installed system.
 
-#### Major Fixes
+#### Chages/Fixes
 
+- Added a Paru config.
 - ISO uses SystemD-Boot now.
 - Bios/MBR Boot has been fixed.
+- Updated Dolphin Context Menus.
 - Fixed some services not starting.
 - Tailscale can be installed via toolkit.
 - Disabled Swap+/-Hibernate In Calamares.✴️
@@ -46,15 +48,6 @@ This month's version includes a few major changes and minor fixes. See list belo
 ✴️ **Swap + Hibernate**
 
 I am currently reworking this option. Due to that, it's been disabled. Will be reactivated once work is done on the next ISO. Until then you can still select Swap File in case you need it. Only use it if you are low on RAM (8GB or lower) otherwise would be a waste of space. Thanks for your understanding.
-
-#### Minor tweaks
-
-- Added a Paru config.
-- Updated XeroLinux Toolkit.
-- Kernel updated to v6.10.7.
-- Updated Calamares to latest.
-- Minor Wayland fixes included.
-- Updated Dolphin Context Menus.
 
 <h3 align="center">August 2024 (Initial Release)</h3>
 
