@@ -37,10 +37,10 @@ This month's version includes a few major changes and minor fixes. See list belo
 #### Chages/Fixes
 
 - Added a Paru config.
-- ISO uses SystemD-Boot now.
 - Bios/MBR Boot has been fixed.
 - Updated Dolphin Context Menus.
 - Tailscale can be installed via toolkit.
+- Increased `/boot/` partition size to 2GiB.
 - Disabled Swap+/-Hibernate In Calamares.✴️
 - Removed Hybrid GPU Support from toolkit.
 
@@ -51,5 +51,3 @@ I am currently reworking this option. Due to that, it's been disabled. Will be r
 <h3 align="center">August 2024 (Initial Release)</h3>
 
 This initial release currently only boots on **EFI** machines, **Legacy Boot** is currently broken. Make sure you use it on a modern *EFI* system.
-
-
