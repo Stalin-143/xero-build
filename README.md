@@ -10,6 +10,14 @@
 
 <h2 align="center">!!! The Changelog !!!!</h2>
 
+- **GTK Theming**
+
+In case you use **GTK4/LibAdwaita** apps, you will have to Launch the toolkit from the dock, head on over to **4. Customization** select option `u` to apply the fix & update both GTK as well as KDE themes to latest versions from source. Only works for the default 🎨**Layan Theme**🎨.
+
+- **Swap + Hibernate**
+
+This option is getting a complete revamp. Due to that, it's been disabled. Will be reactivated once work is done on the next ISO. Until then you can still select **Swap File** in case you need it. THanks for your understanding.
+
 <h3 align="center">September 2024</h3>
 
 This month's version includes a few major changes and minor fixes. See list below. ISO will boot using **SystemD-Boot** for Live Environment, however it will still be using **Grub** on the installed system. Please use **Ventoy** for a better experience...
@@ -35,7 +43,7 @@ This month's version includes a few major changes and minor fixes. See list belo
 
 #### Included Features
 
-Some features available via the toolkit were already applied on the ISO, since it was initially created for Vanilla Arch. Find the list of what has already been applied below :
+This initial release currently only boots on **EFI** machines, **Legacy Boot** is currently broken. Make sure you use it on a modern *EFI* system. Also some features available via the toolkit were already applied on the ISO, since it was initially created for Vanilla Arch. Find the list of what has already been applied below :
 
 <div align="center">
 
@@ -49,12 +57,4 @@ Some features available via the toolkit were already applied on the ISO, since i
 
 </div>
 
-### Issues + Fixes ⚠️
 
-- **EFI Only**
-
-This initial release currently only boots on **EFI** machines, **Legacy Boot** is currently broken. Make sure you use it on a modern *EFI* system.
-
-- **GTK Theming**
-
-In case you use **GTK4/LibAdwaita** apps, you will have to Launch the toolkit from the dock, head on over to **4. Customization** select option `u` to apply the fix & update both GTK as well as KDE themes to latest versions from source. Only works for the default 🎨**Layan Theme**🎨.
