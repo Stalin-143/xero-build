@@ -50,4 +50,4 @@ You can still select Swap File in case you need it. Only use it if you are low o
 
 <h3 align="center">August 2024 (Initial Release)</h3>
 
-This initial release currently only boots on **EFI** machines, **Legacy Boot** is currently broken. Make sure you use it on a modern *EFI* system.
+This initial release only boots on **EFI** machines, **Legacy Boot** is broken. Make sure you use it on a modern *EFI* system.
