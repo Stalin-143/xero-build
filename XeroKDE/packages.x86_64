@@ -371,8 +371,8 @@ ffnvcodec-headers
 
 ### PKG Management
 
-paru-bin
 flatpak
+paru-git
 appstream-qt
 pacman-contrib
 pacman-bintrans
