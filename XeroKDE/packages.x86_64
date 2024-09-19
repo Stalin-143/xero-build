@@ -146,6 +146,7 @@ chaotic-mirrorlist
 
 ### XeroLinux Build
 
+preload
 xlapit-cli
 xero-hooks
 calamares-app
@@ -225,10 +226,6 @@ xf86-input-vmmouse
 xf86-input-libinput
 xf86-input-synaptics
 xf86-input-elographics
-
-### Network Adapters
-
-broadcom-wl-dkms
 
 ### Printers & Scanner support
 
