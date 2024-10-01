@@ -38,7 +38,7 @@ This month's version includes a few changes and some minor fixes. See list below
 
 #### Chages/Fixes
 
-- Kernel 6.10.10.
+- Kernel 6.11.1.
 - KDE Plasma 6.1.5.
 - QT Updated to 6.7.3.
 - Switched to `paru-git`.
