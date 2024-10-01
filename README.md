@@ -12,7 +12,7 @@
 
 ### GTK Theming
 
-In case you use **GTK4/LibAdwaita** apps, you will have to Launch the toolkit from the dock, head on over to **4. Customization** select option `u` to apply the fix & update both GTK as well as KDE themes to latest versions from source. Only works for the default 🎨**Layan Theme**🎨.
+In case you use **GTK4/LibAdwaita** apps, you will have to Launch the toolkit from the dock, head on over to **Customization** select option `u` to apply the fix & update both GTK as well as KDE themes to latest versions from source. Only works for the default 🎨**Layan Theme**🎨.
 
 ### Included Features
 
@@ -29,6 +29,23 @@ Some features available via the toolkit were already applied on the ISO, since i
 | ✅ Fastfetch             | ✅ Oh-My-Posh           |
 
 </div>
+
+<h3 align="center">October 2024</h3>
+
+This month's version includes a few changes and some minor fixes. See list below.
+
+#### Chages/Fixes
+
+- Kernel 6.10.10.
+- KDE Plasma 6.1.5.
+- QT Updated to 6.7.3.
+- Switched to `paru-git`.
+- Removed broadcom-wl-dkms.
+- Toolkit updated to latest.
+- Added Preload for faster app loading.
+- Pacman/conf updated with containerization.
+
+That's it for this month. Just make sure to update the system post-install before doing anything else for best experience.
 
 <h3 align="center">September 2024</h3>
 
