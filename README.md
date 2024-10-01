@@ -40,8 +40,8 @@ This month's version includes a few changes and some minor fixes. See list below
 - KDE Plasma 6.1.5.
 - QT Updated to 6.7.3.
 - Switched to `paru-git`.
-- Removed broadcom-wl-dkms.
 - Toolkit updated to latest.
+- Removed broadcom-wl-dkms.
 - Added Preload for faster app loading.
 - Pacman/conf updated with containerization.
 
