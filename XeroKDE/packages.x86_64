@@ -215,6 +215,7 @@ qemu-hw-display-qxl
 ### Input
 
 piper
+onboard
 fprintd
 libinput
 xf86-input-void
