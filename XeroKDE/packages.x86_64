@@ -148,11 +148,9 @@ chaotic-mirrorlist
 
 preload
 xlapit-cli
-xero-hooks
 calamares-app
 calamares-cfg
 desktop-config
-xero-fix-scripts
 
 ### Build Stuff
 
