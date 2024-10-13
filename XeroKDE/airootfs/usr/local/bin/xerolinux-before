@@ -18,9 +18,9 @@ echo "#################################"
 mkdir -p /boot/grub/themes
 cp -Rf /usr/share/grub/themes/XeroLayan /boot/grub/themes/
 
-#echo "Changing into our own linux.preset"
-#echo "#################################"
-#mv /etc/mkinitcpio.d/xerolinux /etc/mkinitcpio.d/linux.preset
+echo "Changing into our own linux.preset"
+echo "#################################"
+mv /etc/mkinitcpio.d/xero.preset /etc/mkinitcpio.d/linux.preset
 
 echo "#################################"
 echo "End xerolinux-before"

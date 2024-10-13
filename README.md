@@ -47,6 +47,10 @@ This month's version includes a few changes and some minor fixes. See list below
 - Added Preload for faster app loading.
 - Pacman/conf updated with containerization.
 
+**Important Notes** :
+
+> Update your system post-install before doing anything, then make sure to apply Initramfs fix mentioned [**Here**](https://fosstodon.org/@XeroLinux/113296526726117444), and **SDDM** fix mentioned [**Here**](https://fosstodon.org/@XeroLinux/113288849301919384). All fixes will be  included in November ISO, apologies.
+
 That's it for this month. Just make sure to update the system post-install before doing anything else for best experience.
 
 <h3 align="center">September 2024</h3>
