@@ -41,6 +41,8 @@ This month's version includes a few changes and some minor fixes. See list below
 - Kernel 6.11.5.
 - KDE Plasma 6.2.1.
 - QT Updated to 6.8.0.
+- Initramfs build fixed.
+- Xero SDDM Theme fixed.
 - SDDM onscreen keyboard.
 - Onboard floating Keyboard.
 - Removed Xero-Hooks (Not needed).
