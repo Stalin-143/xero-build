@@ -39,9 +39,8 @@ This month's version includes a few changes and some minor fixes. See list below
 #### Chages/Fixes
 
 - Kernel 6.11.5.
-- KDE Plasma 6.2.1.
+- KDE Plasma 6.2.2.
 - QT Updated to 6.8.0.
-- Grub R/W issue fixed.
 - Initramfs build fixed.
 - Xero SDDM Theme fixed.
 - SDDM onscreen keyboard.

@@ -37,7 +37,6 @@ fatresize
 foot-terminfo
 fd
 fsarchiver
-gnu-netcat
 gpart
 gpm
 gptfdisk
@@ -420,7 +419,6 @@ python-websockets
 
 sddm
 xdg-user-dirs
-packagekit-qt6
 
 ### Others
 

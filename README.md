@@ -32,6 +32,23 @@ Some features available via the toolkit were already applied on the ISO, since i
 
 </div>
 
+<h3 align="center">November 2024</h3>
+
+This month's version includes a few changes and some minor fixes. See list below.
+
+#### Chages/Fixes
+
+- Kernel 6.11.5.
+- KDE Plasma 6.2.2.
+- QT Updated to 6.8.0.
+- Initramfs build fixed.
+- Xero SDDM Theme fixed.
+- SDDM onscreen keyboard.
+- Onboard floating Keyboard.
+- Removed Xero-Hooks (Not needed).
+
+That's it for this month. Just make sure to update the system post-install before doing anything else for best experience.
+
 <h3 align="center">October 2024</h3>
 
 This month's version includes a few changes and some minor fixes. See list below.
@@ -47,11 +64,7 @@ This month's version includes a few changes and some minor fixes. See list below
 - Added Preload for faster app loading.
 - Pacman/conf updated with containerization.
 
-**Important Notes** :
-
-> Update your system post-install before doing anything, then make sure to apply Initramfs fix mentioned [**Here**](https://fosstodon.org/@XeroLinux/113296526726117444), and **SDDM** fix mentioned [**Here**](https://fosstodon.org/@XeroLinux/113288849301919384). All fixes will be  included in November ISO, apologies.
-
-That's it for this month.
+That's it for this month. Just make sure to update the system post-install before doing anything else for best experience.
 
 <h3 align="center">September 2024</h3>
 
