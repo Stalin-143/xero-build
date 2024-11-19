@@ -116,6 +116,8 @@ linux
 linux-atm
 linux-headers
 linux-firmware
+linux-firmware-qcom
+linux-firmware-whence
 linux-firmware-marvell
 
 ### Grub Stuff
@@ -145,6 +147,8 @@ chaotic-mirrorlist
 
 ### XeroLinux Build
 
+rustup
+repoctl
 preload
 xlapit-cli
 calamares-app
@@ -164,6 +168,7 @@ gtk-update-icon-cache
 ### mkinitcpio stuff
 
 mkinitcpio
+mkinitcpio-utils
 mkinitcpio-archiso
 mkinitcpio-firmware
 mkinitcpio-openswap
@@ -171,6 +176,7 @@ mkinitcpio-nfs-utils
 
 ### Tools
 
+hblock
 cryptsetup
 brightnessctl
 power-profiles-daemon
@@ -205,9 +211,11 @@ intel-ucode
 mesa
 autorandr
 mesa-utils
+lib32-mesa
 xf86-video-qxl
 xf86-video-vesa
 xf86-video-fbdev
+lib32-mesa-utils
 xf86-video-vmware
 qemu-hw-display-qxl
 
@@ -466,6 +474,7 @@ kde-system
 ### https://archlinux.org/groups/x86_64/plasma/
 
 kwin
+krdp
 milou
 breeze
 oxygen
@@ -493,6 +502,7 @@ plasma-vault
 ksystemstats
 kde-cli-tools
 oxygen-sounds
+kscreenlocker
 systemsettings
 kde-gtk-config
 layer-shell-qt
@@ -582,7 +592,6 @@ akregator
 dwayland
 egl-wayland
 qt6-wayland
-glfw-wayland
 lib32-wayland
 wayland-protocols
 xwaylandvideobridge
@@ -608,6 +617,8 @@ lzop
 nmon
 tree
 vala
+btop
+glfw
 htop
 lshw
 cmake
@@ -642,6 +653,7 @@ mlocate
 jsoncpp
 fuseiso
 gettext
+hw-probe
 node-gyp
 intltool
 graphviz

@@ -32,6 +32,22 @@ Some features available via the toolkit were already applied on the ISO, since i
 
 </div>
 
+<h3 align="center">December 2024</h3>
+
+This month's version includes a few changes and some minor fixes. See list below.
+
+#### Chages/Fixes
+
+- Kernel 6.11.x.
+- KDE Plasma 6.2.3.
+- QT Updated to 6.8.0.
+- Mesa drivers updated.
+- Added some useful apps.
+- Restored Swap+/-Hibernate.
+- NetworkManager issue fixed.
+
+That's it for this month. Just make sure to update the system post-install before doing anything else for best experience.
+
 <h3 align="center">November 2024</h3>
 
 This month's version includes a few changes and some minor fixes. See list below.
