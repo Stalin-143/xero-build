@@ -653,7 +653,6 @@ mlocate
 jsoncpp
 fuseiso
 gettext
-hw-probe
 node-gyp
 intltool
 graphviz

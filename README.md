@@ -32,6 +32,26 @@ Some features available via the toolkit were already applied on the ISO, since i
 
 </div>
 
+<h3 align="center">December 2024</h3>
+
+This month's version includes a few changes and some minor fixes. See list below.
+
+#### Chages/Fixes
+
+- Kernel 6.12.1.
+- KDE Plasma 6.2.4.
+- QT Updated to 6.8.0.
+- Fixed some services.
+- Xero-Toolkit updated.
+- Added reboot notifier.
+- Stability improvements.
+- Rice improvements/fixes.
+- Restored Swap+/-Hibernate.
+- Added missing KDE packages.
+- Fixed Flatpak overrides. => [**Docs**](https://www.systutorials.com/docs/linux/man/1-flatpak-override/)
+
+That's it for this month. Just make sure to update the system post-install before doing anything else for best experience.
+
 <h3 align="center">November 2024</h3>
 
 This month's version includes a few changes and some minor fixes. See list below.
