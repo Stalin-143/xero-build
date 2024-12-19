@@ -28,7 +28,7 @@ Some features available via the toolkit were already applied on the ISO, since i
 | ✅ Multithread Compiling | ✅ Chaotic-AUR Enabled  |
 | ✅ Printer Driver        | ✅ Scanner Drivers      |
 | ✅ Samba Tools           | ✅ XeroLinux Layan Rice |
-| ✅ Fastfetch             | ✅ Oh-My-Posh           |
+| ✅ Fastfetch             | ✅ ZSH/Oh-My-Posh           |
 
 </div>
 
@@ -52,58 +52,10 @@ This month's version includes a few changes and some minor fixes. See list below
 
 That's it for this month. Just make sure to update the system post-install before doing anything else for best experience.
 
-<h3 align="center">November 2024</h3>
+### Support / Issues
 
-This month's version includes a few changes and some minor fixes. See list below.
+Distro support and/or feature requests is currently only available to those of you who have donated €10 or more. If you have please join my [**Discord**](https://discord.gg/5sqxTSuKZu) then DM me so I can give you access to the private support channel. 
 
-#### Chages/Fixes
+As for issues, please report them either on Discord (linked above) or on [**Github**](https://github.com/XeroLinuxDev/xero-build/issues) and I will get to them as soon as I can. 
 
-- Kernel 6.11.5.
-- KDE Plasma 6.2.2.
-- QT Updated to 6.8.0.
-- Initramfs build fixed.
-- Xero SDDM Theme fixed.
-- SDDM onscreen keyboard.
-- Onboard floating Keyboard.
-- Removed Xero-Hooks (Not needed).
-
-That's it for this month. Just make sure to update the system post-install before doing anything else for best experience.
-
-<h3 align="center">October 2024</h3>
-
-This month's version includes a few changes and some minor fixes. See list below.
-
-#### Chages/Fixes
-
-- Kernel 6.11.1.
-- KDE Plasma 6.1.5.
-- QT Updated to 6.7.3.
-- Switched to `paru-git`.
-- Toolkit updated to latest.
-- Removed broadcom-wl-dkms.
-- Added Preload for faster app loading.
-- Pacman/conf updated with containerization.
-
-That's it for this month. Just make sure to update the system post-install before doing anything else for best experience.
-
-<h3 align="center">September 2024</h3>
-
-This month's version includes a few major changes and minor fixes. See list below. ISO will boot using **SystemD-Boot** for Live Environment, however it will still be using **Grub** on the installed system.
-
-#### Chages/Fixes
-
-- Added a Paru config.
-- Bios/MBR Boot has been fixed.
-- Updated Dolphin Context Menus.
-- Tailscale can be installed via toolkit.
-- Increased `/boot/` partition size to 2GiB.
-- Disabled Swap+/-Hibernate In Calamares.✴️
-- Removed Hybrid GPU Support from toolkit.
-
-✴️ **Swap + Hibernate**
-
-You can still select Swap File in case you need it. Only use it if you are low on RAM (8GB or lower) otherwise would be a waste of space.
-
-<h3 align="center">August 2024 (Initial Release)</h3>
-
-This initial release only boots on **EFI** machines, **Legacy Boot** is broken. Make sure you use it on a modern *EFI* system.
+Thanks for the support. ❤️‍🔥
