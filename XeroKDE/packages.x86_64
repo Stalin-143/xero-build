@@ -179,6 +179,7 @@ mkinitcpio-nfs-utils
 hblock
 cryptsetup
 brightnessctl
+caffeine-ng-git
 power-profiles-daemon
 
 ### Bash & Other
