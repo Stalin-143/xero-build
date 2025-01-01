@@ -32,23 +32,21 @@ Some features available via the toolkit were already applied on the ISO, since i
 
 </div>
 
-<h3 align="center">December 2024</h3>
+<h3 align="center">January 2025</h3>
 
-This month's version includes a few changes and some minor fixes. See list below.
+**Happy New Year 2025**. This month's version includes a few changes and some minor fixes. See list below.
 
 #### Chages/Fixes
 
-- Kernel 6.12.1.
-- KDE Plasma 6.2.4.
-- QT Updated to 6.8.0.
-- Fixed some services.
+- Kernel 6.12.7.
+- Added **Wine** 9.22-1.
+- QT Updated to 6.8.1.
 - Xero-Toolkit updated.
-- Added reboot notifier.
 - Stability improvements.
-- Rice improvements/fixes.
-- Restored Swap+/-Hibernate.
-- Added missing KDE packages.
-- Fixed Flatpak overrides. => [**Docs**](https://www.systutorials.com/docs/linux/man/1-flatpak-override/)
+- Frameworks Updated to 6.9.0.
+- Added **Caffeine** to block Screensaver/Sleep.
+- **Apdatifier** Widget custom command/script.
+- **LVM** support disabled in Calamares (Not yet ready)
 
 That's it for this month. Just make sure to update the system post-install before doing anything else for best experience.
 
