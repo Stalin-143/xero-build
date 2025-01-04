@@ -48,6 +48,8 @@ Some features available via the toolkit were already applied on the ISO, since i
 - **Apdatifier** Widget custom command/script.
 - **LVM** support disabled in Calamares (Not yet ready)
 
+![Apdatifier](https://i.imgur.com/2wRBv7N.png)
+
 That's it for this month. Just make sure to update the system post-install before doing anything else for best experience.
 
 ### Support / Issues
