@@ -134,6 +134,7 @@ ntp
 most
 wget
 dialog
+repoctl
 dnsutils
 logrotate
 
@@ -191,7 +192,7 @@ libxinerama
 bash-completion
 
 ### Xorg Applications
-### https://archlinux.org/groups/x86_64/xorg/
+### https://archlinux.org/groups/x86_64/xorg-apps/
 
 xorg-apps
 xorg-xinit
@@ -226,12 +227,17 @@ piper
 onboard
 fprintd
 libinput
+gestures
+fingerprint-gui
 xf86-input-void
 xf86-input-evdev
 iio-sensor-proxy
+libinput-gestures
+game-devices-udev
 xf86-input-vmmouse
 xf86-input-libinput
 xf86-input-synaptics
+libinput-gestures-qt
 xf86-input-elographics
 
 ### Printers & Scanner support
@@ -333,6 +339,7 @@ bat-extras
 
 ### Fonts
 
+asian-fonts
 ttf-fira-code
 otf-libertinus
 tex-gyre-fonts
@@ -377,6 +384,7 @@ ffnvcodec-headers
 ### PKG Management
 
 flatpak
+topgrade
 paru-git
 appstream-qt
 pacman-contrib
