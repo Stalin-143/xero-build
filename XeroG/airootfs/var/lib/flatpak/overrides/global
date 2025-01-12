@@ -1,0 +1,7 @@
+[Context]
+devices=all;dri
+filesystems=home;host-etc;host
+persistent=~/.themes
+
+[Environment]
+GTK_THEME=adw-gtk3-dark

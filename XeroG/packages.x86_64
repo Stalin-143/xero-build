@@ -138,6 +138,17 @@ repoctl
 dnsutils
 logrotate
 
+### Wayland Stuff
+
+wayland
+kwayland5
+qt6-wayland
+egl-wayland
+xorg-xwayland
+lib32-wayland
+wayland-utils
+wayland-protocols
+
 #######################################################
 ###                  Required                       ###
 #######################################################
@@ -153,8 +164,8 @@ repoctl
 preload
 xlapit-cli
 calamares-app
-calamares-cfg
-desktop-config
+calamares-g-cfg
+desktop-config-gnome
 
 ### Build Stuff
 
@@ -177,7 +188,9 @@ mkinitcpio-nfs-utils
 
 ### Tools
 
+mpv
 hblock
+timeshift
 cryptsetup
 brightnessctl
 caffeine-ng-git
@@ -198,6 +211,23 @@ xorg-apps
 xorg-xinit
 xorg-server
 xorg-xwayland
+
+### Essentials
+
+kio5
+ki18n5
+solid5
+xmlto
+ckbcomp
+kconfig5
+kpmcore
+qt5-base
+yaml-cpp
+boost-libs
+kcoreaddons5
+kiconthemes5
+polkit-gnome
+gtk-update-icon-cache
 
 #######################################################
 ###                  Hardware                       ###
@@ -224,7 +254,6 @@ qemu-hw-display-qxl
 ### Input
 
 piper
-onboard
 fprintd
 libinput
 gestures
@@ -325,11 +354,12 @@ gmrun
 figlet
 ostree
 lolcat
+flatseal
 numlockx
 lm_sensors
+gdm-settings
 samba-support
 appstream-glib
-lib32-lm_sensors
 
 ### Bat to replace cat
 
@@ -348,25 +378,22 @@ awesome-terminal-fonts
 ttf-jetbrains-mono-nerd
 adobe-source-sans-pro-fonts
 
-### Kate Plugins
-
-bash-language-server
-typescript-language-server
-vscode-json-languageserver
-
 ### Theme Tools
 
+qt5ct
+qt6ct
 kvantum
 fastfetch
 gtk-engines
+adw-gtk-theme
 oh-my-posh-bin
-gtk-engine-murrine
 gnome-themes-extra
+gtk-engine-murrine
 
 ### Rice/Config Related
 
-kde-wallpapers
 tela-circle-icon-theme-purple
+kvantum-theme-libadwaita-git
 
 ### Browser
 
@@ -388,6 +415,19 @@ appstream-qt
 pacman-contrib
 pacman-bintrans
 
+### Vim For the Fans
+
+vim
+vim-csound
+vim-runtime
+vim-nerdtree
+vim-supertab
+vim-syntastic
+vim-gitgutter
+vim-bufexplorer
+vim-nerdcommenter
+
+
 #######################################################
 ###                  Libraries                      ###
 #######################################################
@@ -403,6 +443,7 @@ gvfs-afc
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
+gvfs-google
 gvfs-gphoto2
 
 ### Tumbler
@@ -427,184 +468,122 @@ python-pygments
 python-websockets
 
 #######################################################
-###                The System Tools                 ###
+###                 GNOME Desktop                   ###
 #######################################################
 
-### Essentials
 
-sddm
-xdg-user-dirs
+## GNOME Stuff
+## https://archlinux.org/groups/x86_64/gnome/
 
-### Others
-
-ocs-url
-xmlstarlet
-
-## Utilities
-
-yt-dlp
-wavpack
-wine-meta
-unarchiver
-gnustep-base
-
-## Complements
-
-parallel
-xsettingsd
-polkit-qt6
-systemdgenie
+tecla
+loupe
+rygel
+sushi
+baobab
+cheese
+evince
+snapshot
+gnome-logs
+gnome-maps
+gnome-usage
+gnome-menus
+gnome-music
+gnome-shell
+simple-scan
+gnome-clocks
+gnome-autoar
+gnome-weather
+gnome-photos
+grilo-plugins
+gnome-session
 gnome-keyring
+gnome-calendar
+gnome-contacts
+tracker3-miners
+gnome-user-share
+gnome-calculator
+gnome-characters
+gnome-connections
+gnome-font-viewer
+xdg-user-dirs-gtk
+gnome-disk-utility
+gnome-color-manager
+gnome-control-center
+gnome-remote-desktop
+gnome-system-monitor
+xdg-terminal-exec-git
+gnome-settings-daemon
+gnome-shell-extensions
+gnome-network-displays
+xdg-desktop-portal-gnome
+
+## Other Gnome Apps
+## https://archlinux.org/groups/x86_64/gnome-extra/
+
+gitg
+d-spy
+geary
+gedit
+glade
+sysprof
+ghostty
+evolution
+endeavour
+accerciser
+file-roller
+gnome-tweaks
+dconf-editor
+gnome-desktop
+gnome-builder
+gnome-nettool
+gnome-applets
+gnome-firmware
+gnome-podcasts
+gnome-dictionary
+gnome-multi-writer
+gnome-bluetooth-3.0
+gnome-power-manager
+gnome-sound-recorder
+gnome-desktop-common
+gnome-online-accounts
+gnome-epub-thumbnailer
+gnome-browser-connector
+gnome-appfolders-manager
 
 #######################################################
-###                  KDE Desktop                    ###
+###              GNOME Desktop Extras               ###
 #######################################################
 
-### https://archlinux.org/groups/x86_64/kf6/
+## GDM
 
-#######################################################
-###                   The Groups                    ###
-#######################################################
+gdm
 
-### https://archlinux.org/groups/x86_64/kf5/
-### https://archlinux.org/groups/x86_64/qt6/
-### https://archlinux.org/groups/x86_64/kde-system/
+## Gnome File Management
 
-kf6
-qt6
-kde-system
+nautilus-share
+nautilus-compare
+nautilus-admin-gtk4
+nautilus-image-converter
+nautilus-open-any-terminal
 
-#######################################################
-###                 The Selections                  ###
-#######################################################
+## GNOME Shell Extensions
 
-### Plasma Selection
-### https://archlinux.org/groups/x86_64/plasma/
+extension-manager
+gnome-shell-extensions
+gnome-shell-extension-arc-menu
+gnome-shell-extension-caffeine
+gnome-shell-extension-gsconnect
+gnome-shell-extension-arch-update
+gnome-shell-extension-blur-my-shell
+gnome-shell-extension-appindicator
+gnome-shell-extension-dash-to-dock
+gnome-shell-extension-weather-oclock
 
-kwin
-krdp
-milou
-breeze
-oxygen
-drkonqi
-kwrited
-kgamma
-kscreen
-sddm-kcm
-kmenuedit
-bluedevil
-kpipewire
-plasma-nm
-plasma-pa
-plasma-sdk
-libkscreen
-breeze-gtk
-powerdevil
-kinfocenter
-flatpak-kcm
-kdecoration
-ksshaskpass
-kwallet-pam
-libksysguard
-plasma-vault
-ksystemstats
-kde-cli-tools
-oxygen-sounds
-kscreenlocker
-systemsettings
-kde-gtk-config
-layer-shell-qt
-plasma-desktop
-polkit-kde-agent
-plasma-workspace
-kdeplasma-addons
-ocean-sound-theme
-qqc2-breeze-style
-kactivitymanagerd
-plasma-integration
-plasma-thunderbolt
-plasma5-integration
-plasma-systemmonitor
-xdg-desktop-portal-kde
-plasma-browser-integration
+### Useful shit
 
-### KDE Network Selection
-### https://archlinux.org/groups/x86_64/kde-network/
-
-krdc
-krfb
-alligator
-kdeconnect
-kio-admin
-kio-extras
-kio-gdrive
-konversation
-kio-zeroconf
-kdenetwork-filesharing
-signon-kwallet-extension
-
-### KDE Graphics Selection
-### https://archlinux.org/groups/x86_64/kde-graphics/
-
-okular
-kamera
-svgpart
-skanlite
-gwenview
-spectacle
-colord-kde
-kcolorchooser
-kimagemapeditor
-kdegraphics-thumbnailers
-
-### KDE Utilities Selection
-### https://archlinux.org/groups/x86_64/kde-utilities/
-
-ark
-kate
-kgpg
-kcalc
-kfind
-sweeper
-konsole
-kdialog
-yakuake
-kweather
-skanpage
-filelight
-kmousetool
-kcharselect
-markdownpart
-keditbookmarks
-kdebugsettings
-kwalletmanager
-dolphin-plugins
-
-### KDE Multimedia Selection
-### https://archlinux.org/groups/x86_64/kde-multimedia/
-
-k3b
-kamoso
-audiotube
-plasmatube
-audiocd-kio
-
-### KDE Applications Selection
-### https://archlinux.org/groups/x86_64/kde-applications/
-
-cervisia
-akregator
-
-### KDE Wayland
-
-dwayland
-egl-wayland
-qt6-wayland
-lib32-wayland
-wayland-protocols
-xwaylandvideobridge
-kwayland-integration
-plasma-wayland-protocols
+deja-dup
+libappindicator-gtk3
+gnome-gesture-improvements
 
 #######################################################
 ###                XeroLinux Extras                 ###
@@ -638,7 +617,7 @@ meson
 unace
 unrar
 unzip
-p7zip
+7zip
 rhash
 sshfs
 vnstat
@@ -676,8 +655,6 @@ cifs-utils
 file-roller
 lsb-release
 dbus-python
-dconf-editor
 laptop-detect
 perl-xml-parser
-gnome-disk-utility
 appmenu-gtk-module

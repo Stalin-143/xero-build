@@ -2,15 +2,13 @@
     <img width="420" src="https://i.imgur.com/QWqMIsr.png" alt="logo">
 </p>
 
-<h1 align="center">XeroLinux Source Code</h1>
+<h1 align="center">🔥 XeroLinux KDE "Flagship" 🔥</h1>
 
 <h2 align="center">💰 <a href="https://ko-fi.com/s/cf9def9630" target="_blank"><strong>Grab your copy here</strong></a> 💰</h2>
 
 <p align="center">
     <img src="https://i.imgur.com/ejZ1ZQv.png" alt="logo">
 </p>
-
-<h2 align="center">🚀 Release notes 🚀</h2>
 
 ### GTK Theming
 
@@ -32,25 +30,32 @@ Some features available via the toolkit were already applied on the ISO, since i
 
 </div>
 
-<h3 align="center">January 2025</h3>
+<h1 align="center">🦁 XeroLinux Gnome "Spin" 🦁</h1>
 
-**Happy New Year 2025**. This month's version includes a few changes and some minor fixes. See list below.
+<h2 align="center">💰 <a href="https://ko-fi.com/" target="_blank"><strong>Grab your copy here (Soon!)</strong></a> 💰</h2>
 
-#### Chages/Fixes
+<p align="center">
+    <img src="https://i.imgur.com/YlYOG6K.png" alt="logo">
+</p>
 
-- Kernel 6.12.7.
-- Added **Wine** 9.22-1.
-- QT Updated to 6.8.1.
-- Xero-Toolkit updated.
-- Stability improvements.
-- Frameworks Updated to 6.9.0.
-- Added **Caffeine** to block Screensaver/Sleep.
-- **Apdatifier** Widget custom command/script.
-- **LVM** support disabled in Calamares (Not yet ready)
+### Included Features
 
-![Apdatifier](https://i.imgur.com/2wRBv7N.png)
+This "Spin" includes everything from the "Flagship" [**KDE Release**](https://github.com/XeroLinuxDev/xero-build). It also icludes some **Gnome** specific tweaks and extensions for a much better out the box experience. See the list below :
 
-That's it for this month. Just make sure to update the system post-install before doing anything else for best experience.
+<h3 align="center">Gnome Features</h3>
+
+<div align="center">
+
+| Extensions               | Tweaks                 |
+| ----------------------   | ----------------------  |
+| ✅ Arc-Menu              | ✅ nautilus-share       |
+| ✅ Caffeine              | ✅ nautilus-compare     |
+| ✅ GSConnect             | ✅ nautilus-admin-gtk4  |
+| ✅ Arch-Update           | ✅ nautilus-image-converter |
+| ✅ Dash-to-Dock          | ✅ nautilus-open-any-terminal |
+| ✅ Blur-My-Shell         | ✅ **Ghostty** Terminal [**Documentation**](https://ghostty.org/docs/config/reference) |
+
+</div>
 
 ### Support / Issues
 
