@@ -17,3 +17,5 @@
 - **LVM** support disabled in Calamares (Not yet ready)
 
 That's it for this month. Just make sure to update the system post-install before doing anything else for best experience.
+
+<h1 align="center">Gnome "Spin"</h1>
