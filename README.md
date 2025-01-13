@@ -6,6 +6,10 @@
 
 <h2 align="center">💰 <a href="https://ko-fi.com/s/cf9def9630" target="_blank"><strong>Grab your copy here</strong></a> 💰</h2>
 
+### Flagship info
+
+I call this the **Flagship** simply because I use it and have been using it since its inception and it's the DE I love and contribute to the most. It can be unstable at times however, since it's constantly evolving and keeps getting new features non stop making the most customizable/riceable DE out there. That's why I love it so much. So it's targeted to anyone who likes that level of tinkering...
+
 <p align="center">
     <img src="https://i.imgur.com/ejZ1ZQv.png" alt="logo">
 </p>
@@ -33,6 +37,14 @@ Some features available via the toolkit were already applied on the ISO, since i
 <h1 align="center">🦁 XeroLinux Gnome "Spin" 🦁</h1>
 
 <h2 align="center">💰 <a href="https://ko-fi.com/" target="_blank"><strong>Grab your copy here (Soon!)</strong></a> 💰</h2>
+
+### Spin info
+
+I call this the **Gnome Dev Spin** simply because, unlike the **KDE Flagship**, it's targeted to the developers out there, since it's much more stable, and stays out of our way while you do your work. Overall system has not been altered, leaving it as the devs intended, no themes used, and very few extensions installed besides useful ones.
+
+**Note :** 
+
+> While some useful extensions were included, I highly recommend against installing too many if you want to keep your system stable. Also, please avoid using GTK themes, as they might cause overall issues since the Gnome devs do not like it when you do. In the end it's all up to you. You have been warned ;)
 
 <p align="center">
     <img src="https://i.imgur.com/YlYOG6K.png" alt="logo">
