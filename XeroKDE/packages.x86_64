@@ -152,6 +152,7 @@ rustup
 repoctl
 preload
 xlapit-cli
+xero-welcome
 calamares-app
 calamares-cfg
 desktop-config
