@@ -181,7 +181,6 @@ mkinitcpio-nfs-utils
 hblock
 cryptsetup
 brightnessctl
-caffeine-ng-git
 power-profiles-daemon
 
 ### Bash & Other
@@ -620,6 +619,7 @@ yad
 zip
 xdo
 gum
+ncdu
 inxi
 meld
 lzop
@@ -640,6 +640,8 @@ unace
 unrar
 unzip
 p7zip
+iftop
+nvtop
 rhash
 sshfs
 vnstat
@@ -673,6 +675,7 @@ playerctl
 asciinema
 oniguruma
 appstream
+ventoy-bin
 cifs-utils
 file-roller
 lsb-release

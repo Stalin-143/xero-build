@@ -599,6 +599,7 @@ yad
 zip
 xdo
 gum
+ncdu
 inxi
 meld
 lzop
@@ -620,6 +621,8 @@ unrar
 unzip
 7zip
 rhash
+iftop
+nvtop
 sshfs
 vnstat
 nodejs
@@ -652,6 +655,7 @@ playerctl
 asciinema
 oniguruma
 appstream
+ventoy-bin
 cifs-utils
 file-roller
 lsb-release
