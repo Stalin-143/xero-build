@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="XeroG"
+iso_name="xerolinux-gnome"
 iso_label="XERO_Gnome_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
 iso_publisher="Xero-Gnome <https://xerolinux.xyz>"
 iso_application="XeroLinux Live/Rescue CD"
