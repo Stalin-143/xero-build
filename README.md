@@ -36,7 +36,7 @@ Some features available via the toolkit were already applied on the ISO, since i
 
 <h1 align="center">🦁 XeroLinux Gnome "Spin" 🦁</h1>
 
-<h2 align="center">💰 <a href="https://ko-fi.com/" target="_blank"><strong>Grab your copy here (Soon!)</strong></a> 💰</h2>
+<h2 align="center">💰 <a href="https://ko-fi.com/s/f32b6689b9" target="_blank"><strong>Grab your copy here</strong></a> 💰</h2>
 
 ### Spin info
 
