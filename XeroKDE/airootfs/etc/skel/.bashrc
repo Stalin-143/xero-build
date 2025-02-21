@@ -27,6 +27,9 @@ fi
 # Path to bat config
 export BAT_CONFIG_PATH="~/.config/bat/config.conf"
 
+# Restart Shell
+alias rshell="systemctl --user restart plasma-plasmashell.service"
+
 # Oh-My-Posh Config
 eval "$(oh-my-posh init bash --config $HOME/.config/ohmyposh/xero.omp.json)"
 

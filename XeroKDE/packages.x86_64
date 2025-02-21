@@ -274,6 +274,7 @@ bluez
 blueberry
 bluez-libs
 bluez-utils
+bluez-tools
 bluez-plugins
 bluez-hid2hci
 
@@ -602,7 +603,7 @@ egl-wayland
 qt6-wayland
 lib32-wayland
 wayland-protocols
-xwaylandvideobridge
+#xwaylandvideobridge
 kwayland-integration
 plasma-wayland-protocols
 

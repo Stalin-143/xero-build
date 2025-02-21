@@ -159,14 +159,17 @@ chaotic-mirrorlist
 
 ### XeroLinux Build
 
+gsound
 rustup
 repoctl
 preload
+libgdata
 xlapit-cli
 xero-welcome
 calamares-app
 calamares-g-cfg
 desktop-config-gnome
+evolution-data-server
 
 ### Build Stuff
 
@@ -303,6 +306,7 @@ lib32-pipewire-jack
 bluez
 blueberry
 bluez-libs
+bluez-tools
 bluez-utils
 bluez-plugins
 bluez-hid2hci
@@ -418,16 +422,11 @@ pacman-bintrans
 
 ### Vim For the Fans
 
-vim
-vim-csound
-vim-runtime
-vim-nerdtree
-vim-supertab
-vim-syntastic
-vim-gitgutter
-vim-bufexplorer
-vim-nerdcommenter
-
+neovide
+neovim-plug
+python-pynvim
+neovim-remote
+neovim-lspconfig
 
 #######################################################
 ###                  Libraries                      ###
