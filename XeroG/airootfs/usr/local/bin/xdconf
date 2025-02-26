@@ -5,3 +5,5 @@ sleep 1.5
 dconf load /io/github/realmazharhussain/GdmSettings/ < /etc/skel/.config/gdm-settings.conf && dconf update
 sleep 1.5
 dconf load /com/github/stunkymonkey/nautilus-open-any-terminal/ < /etc/skel/.config/term.conf
+sleep 1.5
+guake --restore-preferences=$HOME/.config/guake-prefs.cfg

@@ -454,6 +454,7 @@ gnustep-base
 parallel
 xsettingsd
 polkit-qt6
+amarok-qt6
 systemdgenie
 gnome-keyring
 
@@ -678,7 +679,6 @@ oniguruma
 appstream
 ventoy-bin
 cifs-utils
-file-roller
 lsb-release
 dbus-python
 dconf-editor

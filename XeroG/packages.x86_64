@@ -193,6 +193,7 @@ mkinitcpio-nfs-utils
 ### Tools
 
 mpv
+guake
 hblock
 timeshift
 cryptsetup
@@ -419,14 +420,6 @@ paru-git
 appstream-qt
 pacman-contrib
 pacman-bintrans
-
-### Vim For the Fans
-
-neovide
-neovim-plug
-python-pynvim
-neovim-remote
-neovim-lspconfig
 
 #######################################################
 ###                  Libraries                      ###
