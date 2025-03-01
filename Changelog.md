@@ -7,7 +7,7 @@ This month's version includes a few changes and some minor fixes. See list below
 #### Chages/Fixes
 
 - Kernel 6.13.5.
-- KDE Plasma 6.3.1.
+- KDE Plasma 6.3.2.
 - Xero-Toolkit updated.
 - Stability improvements.
 - Frameworks Updated to 6.11.
