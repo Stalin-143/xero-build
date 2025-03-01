@@ -4,6 +4,8 @@
 
 <h1 align="center">🔥 XeroLinux KDE "Flagship" 🔥</h1>
 
+<h3 align="center"><a href="https://github.com/XeroLinuxDev/xero-build/blob/main/Changelog.md#flagship-kde-edition" target="_blank"><strong>.:: Changelog ::.</strong></a></h3>
+
 <h2 align="center">💰 <a href="https://ko-fi.com/s/cf9def9630" target="_blank"><strong>Grab your copy here</strong></a> 💰</h2>
 
 ### Flagship info
@@ -35,6 +37,8 @@ Some features available via the toolkit were already applied on the ISO, since i
 </div>
 
 <h1 align="center">🦁 XeroLinux Gnome "Spin" 🦁</h1>
+
+<h3 align="center"><a href="https://github.com/XeroLinuxDev/xero-build/blob/main/Changelog.md#gnome-dev-spin" target="_blank"><strong>.:: Changelog ::.</strong></a></h3>
 
 <h2 align="center">💰 <a href="https://ko-fi.com/s/f32b6689b9" target="_blank"><strong>Grab your copy here</strong></a> 💰</h2>
 
