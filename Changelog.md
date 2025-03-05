@@ -38,7 +38,7 @@ Please do not report them here or on Discord. That's it for this month. Just mak
 - Latest Gnome updates.
 - Xero-Toolkit updated.
 - Stability improvements.
-- Added Guake Drop-Down Terminal.
+- Added Guake Drop-Down Terminal (F12).
 
 That's it for this month. Just make sure to update the system post-install before doing anything else for best experience. Next release (June) will be doing away with **Ghostty** replacing it with **Ptyxis** which is more developer friendly.
 
