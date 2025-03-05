@@ -24,7 +24,7 @@ This month's version includes a few changes and some minor fixes. See list below
     <img src="https://i.imgur.com/ZcWUdfa.png" alt="xlapit">
 </p>
 
-- There's also an ongoing issue with **Kwin**. Reported [**upstream**](https://bugs.kde.org/show_bug.cgi?id=500819) where plugging in a 4th display should you have one, would crash the entire desktop to black screen and unplugging it would fix things. It will get fixed soon, wait for it, I guess.
+- There's also an ongoing issue with **Screnn Mirroring**. Reported [**upstream**](https://bugs.kde.org/show_bug.cgi?id=499981) where mirroring screens may cause reduced performance in **Wayland**. It will get fixed soon, wait for it, I guess.
 
 Please do not report them here or on Discord. That's it for this month. Just make sure to update the system post-install before doing anything else for best experience.
 
