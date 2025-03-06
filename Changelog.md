@@ -16,16 +16,6 @@ This month's version includes a few changes and some minor fixes. See list below
 - Fixed some Plasmoids not updating.
 - Removed Deprecated XWaylandVideoBridge.
 
-#### Known issues
-
-- There's an issue with some dot file/folder icon sizes in **Dolphin**. They might look smaller than others. It's a known bug and bug was reported [**upstream**](https://bugs.kde.org/show_bug.cgi?id=499620). Fix will be pushed as soon as possible.
-
-<p align="center">
-    <img src="https://i.imgur.com/ZcWUdfa.png" alt="xlapit">
-</p>
-
-- There's also an ongoing issue with **Screnn Mirroring**. Reported [**upstream**](https://bugs.kde.org/show_bug.cgi?id=499981) where mirroring screens may cause reduced performance in **Wayland**. It will get fixed soon, wait for it, I guess.
-
 Please do not report them here or on Discord. That's it for this month. Just make sure to update the system post-install before doing anything else for best experience.
 
 <h1 align="center">Gnome Dev "Spin"</h1>
